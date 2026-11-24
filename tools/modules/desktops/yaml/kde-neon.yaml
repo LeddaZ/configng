@@ -23,6 +23,8 @@ tiers:
       - plasma-discover-backend-fwupd
       - plasma-nm
       - plasma-pa
+      # plasma-pa only recommends it. Without it, the speaker test says "no driver".
+      - libcanberra-pulse
       - plasma-vault
       - pipewire-audio
       - pipewire-pulse

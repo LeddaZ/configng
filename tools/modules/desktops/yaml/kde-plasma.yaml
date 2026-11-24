@@ -24,6 +24,8 @@ tiers:
       - okular
       - plasma-nm
       - plasma-pa
+      # plasma-pa only recommends it. Without it, the speaker test says "no driver".
+      - libcanberra-pulse
       # plasma-desktop only recommends these. The panel has launchers for both.
       # Discover brings PackageKit, its apt backend, and shows updates.
       - plasma-discover
