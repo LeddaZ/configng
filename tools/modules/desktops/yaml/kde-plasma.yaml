@@ -75,6 +75,7 @@ tiers:
       - pulseaudio-module-bluetooth
       - spice-vdagent
       - xdg-user-dirs
+      - fonts-noto-core 
 
   mid:
     # Drop the GTK-stack equivalents that KDE already provides via

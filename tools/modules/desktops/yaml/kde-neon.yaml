@@ -30,6 +30,7 @@ tiers:
       - pipewire-pulse
       - wireplumber
       - scdaemon
+      - fonts-noto-core
     packages_uninstall:
       # IMPORTANT: do NOT list anything here that is a Depends of
       # neon-desktop. Removing such a package triggers apt's
