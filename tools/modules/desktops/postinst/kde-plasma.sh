@@ -31,15 +31,6 @@ cat > "$updates/armbian-branding.js" <<- EOF
 			d.writeConfig("Image", "file://${wallpaper}");
 		}
 	});
-	panels().forEach(function (p) {
-		p.widgets("org.kde.plasma.kickoff").forEach(function (w) {
-			w.currentConfigGroup = ["General"];
-			var icon = w.readConfig("icon");
-			if (!icon || icon.indexOf("start-here") === 0) {
-				w.writeConfig("icon", "${logo}");
-			}
-		});
-	});
 EOF
 
 # Pin Armbian Imager to the panel. The package ships
